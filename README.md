@@ -32,5 +32,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 
 ## 5. Future training improvements
  a. Increase the number of epochs: It will lead to better training and convergence to smaller errors.
+ 
  b. Change the optimizer: Use in all experiments the ADAM optimizer that is mentioned in the literature as the optimizer with the best results.
+ 
  c. Use other types of augmentation options: Incorporate augmentations that improve the low lighting in the images.
