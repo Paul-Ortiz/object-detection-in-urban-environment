@@ -1,0 +1,2 @@
+http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8.tar.gz
+s3://sagemaker-us-east-1-789453636658/tf2-object-detection-2023-08-20-02-40-07-675/output/model.tar.gz

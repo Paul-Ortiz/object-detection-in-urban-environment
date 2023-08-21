@@ -1,0 +1,2 @@
+http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8.tar.gz
+s3://sagemaker-us-east-1-789453636658/tf2-object-detection-2023-08-18-19-27-50-557/output/model.tar.gz

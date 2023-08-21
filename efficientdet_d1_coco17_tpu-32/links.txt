@@ -1,0 +1,2 @@
+http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d1_coco17_tpu-32.tar.gz
+s3://sagemaker-us-east-1-789453636658/tf2-object-detection-2023-08-17-20-30-31-039/output/model.tar.gz
