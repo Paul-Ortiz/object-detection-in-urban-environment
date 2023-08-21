@@ -16,7 +16,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 | optimizer: |   momentum_optimizer | adam_optimizer | momentum_optimizer|      
 | batch_size: | 8 | 8 | 8 |
 
-data_augmentation_options: random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
+**data_augmentation_options:** random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
 
 
 ## 4. Results
