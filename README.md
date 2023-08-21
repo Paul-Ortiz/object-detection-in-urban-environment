@@ -16,6 +16,8 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 | optimizer: |   momentum_optimizer | adam_optimizer | momentum_optimizer|      
 | batch_size: | 8 | 8 | 8 |
 
+data_augmentation_options: random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
+
 
 ## 4. Results
 
@@ -25,4 +27,11 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 | SSD MobileNet V2 FPNLite 640x640 | ![](media/output_fasterresnet50.gif) |
 | Faster R-CNN ResNet50 V1 640x640 | ![](media/output_mobilenet.gif) |
 
+### Training loss results
 ![](media/losses.png)
+
+## 5. Future training improvements
+
+### a. Increase the number of epochs: It will lead to better training and convergence to smaller errors.
+### b. Change the optimizer: Use in all experiments the ADAM optimizer that is mentioned in the literature as the optimizer with the best results.
+### c. Use other types of augmentation options: Incorporate augmentations that improve the low lighting in the images.
