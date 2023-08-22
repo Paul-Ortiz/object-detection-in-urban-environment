@@ -14,6 +14,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 | ------------- | ------------- | ------------- |  ------------- | 
 | num_ephocs: |  2000 | 2000 | 2000 |
 | optimizer: |   momentum_optimizer | adam_optimizer | momentum_optimizer|      
+| learning_rate: |   cosine_decay_learning_rate | constant_learning_rate | cosine_decay_learning_rate|
 | batch_size: | 8 | 8 | 8 |
 
 **data_augmentation_options:** random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
@@ -21,7 +22,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 
 ## 4. Results with score more than 60%
 
-| Models | Video | Results | 
+| Models | Video | All frames | 
 | ------------- | ------------- | ------------- | 
 | EfficientDet D1 640x64  | ![](media/output_efficientdet.gif) |  ![](media/efficientdet_d1_0.6.png) |
 | SSD MobileNet V2 FPNLite 640x640 | ![](media/output_mobilenet.gif) | ![](media/ssd_mobilenet_v2_0.6.png) |
