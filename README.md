@@ -2,11 +2,11 @@
 ## 1. Selection of pre-trained [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
    This project use an object detection model with the Tensorflow Object Detection API and AWS Sagemaker.
    
-| Pre-trained model from model zoo |
-| ------------- | 
-| EfficientDet D1 640x640  | 
-| SSD MobileNet V2 FPNLite 640x640 |
-| Faster R-CNN ResNet50 V1 640x640 |
+| Pre-trained model from model zoo | Detectors Type |
+| ------------- | ------------- | 
+| EfficientDet D1 640x640  | One-stage |
+| SSD MobileNet V2 FPNLite 640x640 | One-stage |
+| Faster R-CNN ResNet50 V1 640x640 | Two-stage |
 ## 2. Dataset
 Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are in TFRecord Format. 
 ## 3. Parameters of traning
