@@ -19,13 +19,15 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 **data_augmentation_options:** random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
 
 
-## 4. Results
+## 4. Results with score more than 60%
 
-| Models | Results |
-| ------------- | ------------- | 
-| EfficientDet D1 640x64  | ![](media/output_efficientdet.gif) |
-| SSD MobileNet V2 FPNLite 640x640 | ![](media/output_fasterresnet50.gif) |
-| Faster R-CNN ResNet50 V1 640x640 | ![](media/output_mobilenet.gif) |
+| Models | Video | Results | 
+| ------------- | ------------- | ------------- | 
+| EfficientDet D1 640x64  | ![](media/output_efficientdet.gif) |  ![](media/efficientdet_d1_0.6.png) |
+| SSD MobileNet V2 FPNLite 640x640 | ![](media/output_fasterresnet50.gif) | ![](media/efficientdet_d1_0.6.png) |
+| Faster R-CNN ResNet50 V1 640x640 | ![](media/output_mobilenet.gif) | ![](media/efficientdet_d1_0.6.png) |
+
+
 
 ### Training loss results
 ![](media/losses.png)
