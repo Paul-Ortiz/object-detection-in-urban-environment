@@ -24,8 +24,8 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 | Models | Video | Results | 
 | ------------- | ------------- | ------------- | 
 | EfficientDet D1 640x64  | ![](media/output_efficientdet.gif) |  ![](media/efficientdet_d1_0.6.png) |
-| SSD MobileNet V2 FPNLite 640x640 | ![](media/output_fasterresnet50.gif) | ![](media/efficientdet_d1_0.6.png) |
-| Faster R-CNN ResNet50 V1 640x640 | ![](media/output_mobilenet.gif) | ![](media/efficientdet_d1_0.6.png) |
+| SSD MobileNet V2 FPNLite 640x640 | ![](media/output_mobilenet.gif) | ![](media/ssd_mobilenet_v2_0.6.png) |
+| Faster R-CNN ResNet50 V1 640x640 | ![](media/output_fasterresnet50.gif) | ![](media/faster_rcnn_resnet50_v1_0.6.png) |
 
 
 
