@@ -8,6 +8,8 @@
 | SSD MobileNet V2 FPNLite 640x640 | One-stage | 39 | 28.2 |
 | Faster R-CNN ResNet50 V1 640x640 | Two-stage | 53 | 29.3 |
 
+**The selection of these models** was made based on their computational load and mAP characteristics. The EfficientDet D1 model is the one with the best precision of the selected models. However, in reference to the execution time the SSD MobileNet V2 FPNLite model has better performance due to its smaller size and low computational load of the three models presented. It's a good choice for real-time or resource-constrained applications. Faster R-CNN ResNet50 V1 is two-stage model, this causes a greater computational load and an increase in execution time, this model is selected with the purpose of establishing a comparison of results only, since for the application in autonomous vehicles it is not the most suitable model. 
+
 ## 2. Dataset
 Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are in TFRecord Format. 
 ## 3. Parameters of traning
@@ -20,10 +22,10 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 
 **data_augmentation_options:** random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
 
-**The selection of these models** was made based on their computational load and mAP characteristics. The EfficientDet D1 model is the one with the best precision of the selected models. However, in reference to the execution time the SSD MobileNet V2 FPNLite model has better performance due to its smaller size and low computational load of the three models presented. It's a good choice for real-time or resource-constrained applications. Faster R-CNN ResNet50 V1 is two-stage model, this causes a greater computational load and an increase in execution time, this model is selected with the purpose of establishing a comparison of results only, since for the application in autonomous vehicles it is not the most suitable model. 
 
 
 ## 4. Results with score greater than 60%
+Of the three selected models we can see that the EfficientDet D1 model has the best performance and precision. This manages to detect vehicles and people with greater confidence, obtaining a total of 578 and 405 respectively.
 
 | Models | Video | All frames | 
 | ------------- | ------------- | ------------- | 
