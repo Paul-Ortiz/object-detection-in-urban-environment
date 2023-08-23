@@ -25,7 +25,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 
 
 ## 4. Results with score greater than 60%
-Of the three selected models we can see that the EfficientDet D1 model has the best performance and precision. This manages to detect vehicles and people with greater confidence, obtaining a total of 578 and 405 respectively. SSD MobileNet V2 FPNLite is the fastest model is the fastest but it has a lower confidence, it detects only 5 people. Faster R-CNN ResNet50 V1 increases the confidence in the detection of people, however it has a poor result by obtaining many false positives in the detection of vehicles.
+Of the three selected models we can see that the EfficientDet D1 model has the best performance and precision. This manages to detect vehicles and people with greater confidence, obtaining a total of 578 and 405 respectively. SSD MobileNet V2 FPNLite is the fastest model but it has a lower confidence, it detects only 5 people. Faster R-CNN ResNet50 V1 increases the confidence in the detection of people, however it has a poor result by obtaining many false positives in the detection of vehicles.
 
 | Models | Video | All frames | 
 | ------------- | ------------- | ------------- | 
