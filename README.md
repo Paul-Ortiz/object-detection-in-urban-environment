@@ -37,7 +37,7 @@ Of the three selected models we can see that the EfficientDet D1 model has the b
 ### Training loss results
 The loss graphs show the result of the training experiments. The best performance has the EfficientDet D1 model followed by the MobileNet V2 FPNLite SSD model and the lowest performance is Faster R-CNN ResNet50 V1.
 
-It is important to mention that the Faster R-CNN ResNet50 V1 during training does not have a convergent loss graph to 0, therefore it have errors in detection, generating the excessive false positives mentioned above.
+It is important to mention that the Faster R-CNN ResNet50 V1 during training does not have a convergent loss graph to 0, therefore it have errors in detection, generating the excessive false positives mentioned above. It is recommended to perform more training tests with this model by changing the optimizer, the learning rate and the batch size to obtain better results.
 
 ![](media/losses.png)
 
