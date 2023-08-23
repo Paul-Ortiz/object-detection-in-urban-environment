@@ -1,6 +1,6 @@
 # Object detection in urban environment
 ## 1. Selection of pre-trained [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
-   This project use an object detection model with the Tensorflow Object Detection API and AWS Sagemaker. 
+   This project use an object detection model with the Tensorflow Object Detection API and AWS Sagemaker. The models are pre-trained on the COCO 2017 dataset and their characteristics are as follow: 
    
 | Pre-trained model from model zoo | Detectors Type | Speed (ms) | COCO mAP |
 | ------------- | ------------- | ------------- | ------------- | 
