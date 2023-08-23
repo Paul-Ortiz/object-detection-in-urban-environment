@@ -1,5 +1,5 @@
 # Object detection in urban environment
-## 1. Selection of pre-trained [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
+## 1. Selection of pre-trained [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
    This project use an object detection model with the Tensorflow Object Detection API and AWS Sagemaker. The models are pre-trained on the COCO 2017 dataset and their characteristics are as follow: 
    
 | Pre-trained model from model zoo | Detectors Type | Speed (ms) | COCO mAP |
@@ -25,14 +25,13 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 
 
 ## 4. Results with score greater than 60%
-Of the three selected models we can see that the EfficientDet D1 model has the best performance and precision. This manages to detect vehicles and people with greater confidence, obtaining a total of 578 and 405 respectively.
+Of the three selected models we can see that the EfficientDet D1 model has the best performance and precision. This manages to detect vehicles and people with greater confidence, obtaining a total of 578 and 405 respectively. SSD MobileNet V2 FPNLite is the fastest model is the fastest but it has a lower confidence, it detects only 5 people. Faster R-CNN ResNet50 V1 increases the confidence in the detection of people, however it has a poor result by obtaining many false positives in the detection of vehicles.
 
 | Models | Video | All frames | 
 | ------------- | ------------- | ------------- | 
 | EfficientDet D1 640x64  | ![](media/output_efficientdet.gif) |  ![](media/efficientdet_d1_0.6.png) |
 | SSD MobileNet V2 FPNLite 640x640 | ![](media/output_mobilenet.gif) | ![](media/ssd_mobilenet_v2_0.6.png) |
 | Faster R-CNN ResNet50 V1 640x640 | ![](media/output_fasterresnet50.gif) | ![](media/faster_rcnn_resnet50_v1_0.6.png) |
-
 
 
 ### Training loss results
