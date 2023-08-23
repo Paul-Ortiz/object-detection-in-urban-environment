@@ -7,6 +7,8 @@
 | EfficientDet D1 640x640  | One-stage | 54 | 38.1 |
 | SSD MobileNet V2 FPNLite 640x640 | One-stage | 39 | 28.2 |
 | Faster R-CNN ResNet50 V1 640x640 | Two-stage | 53 | 29.3 |
+
+The selection of these models was made based on their computational load and mAP characteristics. The EfficientDet D1 model is the one with the best precision of the selected models. However, in reference to the execution time, the SSD MobileNet V2 FPNLite model has better performance due to its smaller size and low computational load of the three models presented. 
 ## 2. Dataset
 Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are in TFRecord Format. 
 ## 3. Parameters of traning
