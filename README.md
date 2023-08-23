@@ -47,3 +47,5 @@ It is important to mention that the Faster R-CNN ResNet50 V1 during training doe
  **b. Change the optimizer:** Use in all experiments the ADAM optimizer that is mentioned in the literature as the optimizer with the best results.
  
  **c. Use other types of augmentation options:** Incorporate augmentations that improve the low lighting in the images.
+ 
+ **d. Change batch size:** Try increasing the batch size and decreasing the learning rate to get a better training result. 
