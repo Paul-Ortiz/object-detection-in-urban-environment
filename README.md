@@ -20,7 +20,7 @@ Front Camera Images from [Waymo Open Dataset](https://waymo.com/open/). Data are
 **data_augmentation_options:** random_crop_image, random_horizontal_flip and random_scale_crop_and_pad_to_square.
 
 
-## 4. Results with score more than 60%
+## 4. Results with score greater than 60%
 
 | Models | Video | All frames | 
 | ------------- | ------------- | ------------- | 
