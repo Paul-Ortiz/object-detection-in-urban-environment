@@ -2,7 +2,7 @@
 ## 1. Selection of pre-trained [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
    This project use an object detection model with the Tensorflow Object Detection API and AWS Sagemaker. 
    
-| Pre-trained model from model zoo | Detectors Type | Speed (ms) |
+| Pre-trained model from model zoo | Detectors Type | Speed (ms) | COCO mAP |
 | ------------- | ------------- | ------------- | ------------- | 
 | EfficientDet D1 640x640  | One-stage | 54 | 38.1 |
 | SSD MobileNet V2 FPNLite 640x640 | One-stage | 39 | 28.2 |
